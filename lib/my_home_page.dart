@@ -16,9 +16,12 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Welcome to Katawut App'),
-            Text('6612732105'),
-          ],
+            Text('Welcome to Katawut App',
+            style: TextStyle(fontSize: 24, 
+            fontWeight: FontWeight.bold),), 
+            SizedBox(height: 20,),
+          Text('6612732105',
+          style: TextStyle(fontSize: 24),)],
         ),
       ),
     );
